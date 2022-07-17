@@ -6,6 +6,6 @@ namespace webapi.Controllers
     {
         [HttpGet("/")]
         public IActionResult Get()
-            => Ok($"Hello world {DateTime.UtcNow}");   
+            => Ok($"Hello world {DateTime.UtcNow} ");   
     }
 }
